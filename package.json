@@ -1,0 +1,29 @@
+{
+  "name": "@apicase/jsonapi",
+  "version": "0.1.0",
+  "description": "JSON API plugin for Apicase (jsonapi.org)",
+  "module": "index.js",
+  "main": "index.cjs.js",
+  "repository": "https://github.com/apicase/jsonapi",
+  "author": "Anton Kosykh <kelin2025@yandex.ru>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --fix *.js",
+    "build": "babel index.js --out-file index.cjs.js"
+  },
+  "dependencies": {
+    "json-api-normalize": "^1.1.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-simple-commonjs": "^0.3.0",
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "ghooks": "^2.0.2"
+  }
+}
