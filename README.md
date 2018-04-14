@@ -1,6 +1,6 @@
 # Apicase JSON API
 
-Apicase plugin that helps you work with JSON API.
+Apicase plugin that helps you work with JSON API (based on [**json-api-normalize**](https://github.com/dbrekalo/json-api-normalize))
 
 ## Read JSON API specification
 
