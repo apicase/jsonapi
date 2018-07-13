@@ -1,6 +1,6 @@
 {
   "name": "@apicase/jsonapi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JSON API plugin for Apicase (jsonapi.org)",
   "module": "index.js",
   "main": "index.cjs.js",
